@@ -1,0 +1,17 @@
+package main3;
+import java.util.Scanner;
+public class main5 {
+  public static void main(String[] args) {
+    System.out.print("");
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    
+    if (a>=0 & a<=10) { 
+      System.out.println ("Позитивне число менше 10 або нуль");
+    }  
+    
+    else {
+      System.out.println ("Позитивне число більше 10 або негативне");
+    }
+}
+}
