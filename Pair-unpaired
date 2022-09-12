@@ -1,0 +1,15 @@
+package main3;
+import java.util.Scanner;
+public class main5 {
+  public static void main(String[] args) {
+    System.out.print("");
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    String str = Integer.toString(a);
+    
+    if (a % 2 == 0 )
+          System.out.println(a);
+      else
+      System.out.println(str + " : число непарне");  
+  }
+}
