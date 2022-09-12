@@ -1,0 +1,31 @@
+package main3;
+public class main5 {
+  public static void main(String[] args) {
+    boolean lit1 = false;
+    System.out.println(lit1);
+    
+    String  lit2 = "Это обычная строка";
+    System.out.println(lit2);
+    
+    char  lit3 = 102;
+    System.out.println(lit3);
+    
+    int lit4 = 0b1101010110;
+    System.out.println("Число в двоичной системе: " + lit4);
+    
+    int lit5 = 012314;
+    System.out.println("Число в восьмеричной системе: " + lit5);
+    
+    int lit6 = 456;
+    System.out.println("Число в десятичной системе: " + lit6);
+    
+    int lit7 = 0x141D12;
+    System.out.println("Число в шестнадцатеричной системе: " +  lit7);
+    
+    float lit8 = 3.5F;
+    System.out.println(lit8);
+    
+    double lit9 = 8.5;
+    System.out.println(lit9);
+  }
+}
