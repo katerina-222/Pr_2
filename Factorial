@@ -1,0 +1,16 @@
+package main3;
+import java.util.Scanner;
+public class main5 {
+  public static void main(String[] args) {
+    int a = 0;
+    int b = 5;
+    int random1 = a + (int) (Math.random() * b);
+    System.out.println(getFactorial(6) - getFactorial(random1));}
+  public static int getFactorial(int f) {
+      int result = 1;
+      for (int i = 1; i <= f; i++) {
+         result = result * i;
+      }
+      return result;
+    }
+}
